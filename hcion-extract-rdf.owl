@@ -92,6 +92,7 @@
     <!-- http://nemo.ufes.br/hcion-extract#sound -->
 
     <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#sound">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
@@ -100,10 +101,7 @@
 
     <!-- http://nemo.ufes.br/hcion-extract#timestamp -->
 
-    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#timestamp">
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#timestamp"/>
     
 
 
