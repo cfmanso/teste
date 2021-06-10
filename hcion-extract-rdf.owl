@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://nemo.ufes.br/hcion-extract#"
+     xml:base="http://nemo.ufes.br/hcion-extract"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://nemo.ufes.br/hcion-extract"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#characterizes -->
+
+    <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#characterizes">
+        <owl:inverseOf rdf:resource="http://nemo.ufes.br/hcion-extract#is_characterized_by"/>
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#composes -->
+
+    <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#composes">
+        <owl:inverseOf rdf:resource="http://nemo.ufes.br/hcion-extract#is_composed_of"/>
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#has_participation -->
+
+    <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#has_participation">
+        <owl:inverseOf rdf:resource="http://nemo.ufes.br/hcion-extract#participation_of"/>
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#is_characterized_by -->
+
+    <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#is_characterized_by">
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#User"/>
+        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#is_composed_of -->
+
+    <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#is_composed_of">
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
+        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#participation_of -->
+
+    <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#participation_of">
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#User"/>
+        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#sound -->
+
+    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#sound">
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#timestamp -->
+
+    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#timestamp">
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#HumanComputerInteraction -->
+
+    <owl:Class rdf:about="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#User -->
+
+    <owl:Class rdf:about="http://nemo.ufes.br/hcion-extract#User">
+        <owl:disjointWith rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#UserParticipation -->
+
+    <owl:Class rdf:about="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
+            <rdf:Description rdf:about="http://nemo.ufes.br/hcion-extract#User"/>
+            <rdf:Description rdf:about="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
