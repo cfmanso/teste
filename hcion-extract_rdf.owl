@@ -114,46 +114,42 @@
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#OWLDataProperty_7f5b4faa_7554_46e0_9b89_c18beaf5f615 -->
+    <!-- http://nemo.ufes.br/hcion-extract#duration -->
 
-    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#OWLDataProperty_7f5b4faa_7554_46e0_9b89_c18beaf5f615">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <rdfs:label xml:lang="en">geolocation_x</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://nemo.ufes.br/hcion-extract#OWLDataProperty_9abe594d_1cf2_4e81_94ca_bfd75e55c07f -->
-
-    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#OWLDataProperty_9abe594d_1cf2_4e81_94ca_bfd75e55c07f">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-        <rdfs:label xml:lang="en">geolocation_z</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://nemo.ufes.br/hcion-extract#OWLDataProperty_d874f0bc_5219_43c9_8a27_2eecda933122 -->
-
-    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#OWLDataProperty_d874f0bc_5219_43c9_8a27_2eecda933122">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-        <rdfs:label xml:lang="en">geolocation_y</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://nemo.ufes.br/hcion-extract#OWLDataProperty_ed89095d_fde8_4012_8aa8_ce6bc1daf283 -->
-
-    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#OWLDataProperty_ed89095d_fde8_4012_8aa8_ce6bc1daf283">
+    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#duration">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
-        <rdfs:label xml:lang="en">duration</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#geolocation_x -->
+
+    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#geolocation_x">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#geolocation_y -->
+
+    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#geolocation_y">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#geolocation_z -->
+
+    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#geolocation_z">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#real"/>
     </owl:DatatypeProperty>
     
 
