@@ -5,9 +5,10 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:main="https://raw.githubusercontent.com/sd-costa/teste/main/#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://nemo.ufes.br/hcion-extract">
-        <owl:versionIRI rdf:resource="http://nemo.ufes.br/hcion-extract/2.0"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/">
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/2.0/"/>
     </owl:Ontology>
     
 
@@ -46,59 +47,59 @@
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#characterizes -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#characterizes -->
 
-    <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#characterizes">
-        <owl:inverseOf rdf:resource="http://nemo.ufes.br/hcion-extract#is_characterized_by"/>
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#User"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#characterizes">
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#is_characterized_by"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#User"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#composes -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#composes -->
 
-    <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#composes">
-        <owl:inverseOf rdf:resource="http://nemo.ufes.br/hcion-extract#is_composed_of"/>
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#composes">
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#is_composed_of"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#HumanComputerInteraction"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#has_participation -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#has_participation -->
 
-    <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#has_participation">
-        <owl:inverseOf rdf:resource="http://nemo.ufes.br/hcion-extract#participation_of"/>
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#User"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#has_participation">
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#participation_of"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#User"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#is_characterized_by -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#is_characterized_by -->
 
-    <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#is_characterized_by">
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#User"/>
-        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#is_characterized_by">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#User"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#is_composed_of -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#is_composed_of -->
 
-    <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#is_composed_of">
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
-        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#is_composed_of">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#HumanComputerInteraction"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#participation_of -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#participation_of -->
 
-    <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#participation_of">
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#User"/>
-        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#participation_of">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#User"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
     </owl:ObjectProperty>
     
 
@@ -114,61 +115,61 @@
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#duration -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#duration -->
 
-    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#duration">
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#duration">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#HumanComputerInteraction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#geolocation_x -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#geolocation_x -->
 
-    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#geolocation_x">
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#geolocation_x">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#geolocation_y -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#geolocation_y -->
 
-    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#geolocation_y">
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#geolocation_y">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#geolocation_z -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#geolocation_z -->
 
-    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#geolocation_z">
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#geolocation_z">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#sound -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#sound -->
 
-    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#sound">
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#sound">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#timestamp -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#timestamp -->
 
-    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#timestamp">
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#timestamp">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
     </owl:DatatypeProperty>
     
@@ -185,23 +186,23 @@
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#HumanComputerInteraction -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#HumanComputerInteraction -->
 
-    <owl:Class rdf:about="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#HumanComputerInteraction"/>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#User -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#User -->
 
-    <owl:Class rdf:about="http://nemo.ufes.br/hcion-extract#User">
-        <owl:disjointWith rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#User">
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
     </owl:Class>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#UserParticipation -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation -->
 
-    <owl:Class rdf:about="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
     
 
 
@@ -216,79 +217,79 @@
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#emittedSound -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#emittedSound -->
 
-    <owl:NamedIndividual rdf:about="http://nemo.ufes.br/hcion-extract#emittedSound">
-        <rdf:type rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <geolocation_x rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-415.637</geolocation_x>
-        <geolocation_y rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.67</geolocation_y>
-        <geolocation_z rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-127.185</geolocation_z>
-        <sound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</sound>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#emittedSound">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
+        <main:geolocation_x rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-415.637</main:geolocation_x>
+        <main:geolocation_y rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.67</main:geolocation_y>
+        <main:geolocation_z rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-127.185</main:geolocation_z>
+        <main:sound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</main:sound>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#notSound -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#notSound -->
 
-    <owl:NamedIndividual rdf:about="http://nemo.ufes.br/hcion-extract#notSound">
-        <rdf:type rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <geolocation_x rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-23.466</geolocation_x>
-        <geolocation_y rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-3434.3345</geolocation_y>
-        <geolocation_z rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-555.65</geolocation_z>
-        <sound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</sound>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#notSound">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
+        <main:geolocation_x rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-23.466</main:geolocation_x>
+        <main:geolocation_y rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-3434.3345</main:geolocation_y>
+        <main:geolocation_z rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-555.65</main:geolocation_z>
+        <main:sound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</main:sound>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#teste -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#teste -->
 
-    <owl:NamedIndividual rdf:about="http://nemo.ufes.br/hcion-extract#teste">
-        <rdf:type rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <geolocation_x rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-299822.2226</geolocation_x>
-        <geolocation_y rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-9999.999</geolocation_y>
-        <geolocation_z rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-72625555.65</geolocation_z>
-        <sound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</sound>
-        <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#time">22:22:02</timestamp>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#teste">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
+        <main:geolocation_x rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-299822.2226</main:geolocation_x>
+        <main:geolocation_y rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-9999.999</main:geolocation_y>
+        <main:geolocation_z rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-72625555.65</main:geolocation_z>
+        <main:sound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</main:sound>
+        <main:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#time">22:22:02</main:timestamp>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#user1 -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#user1 -->
 
-    <owl:NamedIndividual rdf:about="http://nemo.ufes.br/hcion-extract#user1">
-        <rdf:type rdf:resource="http://nemo.ufes.br/hcion-extract#User"/>
-        <participation_of rdf:resource="http://nemo.ufes.br/hcion-extract#userparticipation1"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#user1">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#User"/>
+        <main:participation_of rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#userparticipation1"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#user2 -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#user2 -->
 
-    <owl:NamedIndividual rdf:about="http://nemo.ufes.br/hcion-extract#user2">
-        <rdf:type rdf:resource="http://nemo.ufes.br/hcion-extract#User"/>
-        <participation_of rdf:resource="http://nemo.ufes.br/hcion-extract#emittedSound"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#user2">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#User"/>
+        <main:participation_of rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#emittedSound"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#user3 -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#user3 -->
 
-    <owl:NamedIndividual rdf:about="http://nemo.ufes.br/hcion-extract#user3">
-        <rdf:type rdf:resource="http://nemo.ufes.br/hcion-extract#User"/>
-        <participation_of rdf:resource="http://nemo.ufes.br/hcion-extract#notSound"/>
-        <participation_of rdf:resource="http://nemo.ufes.br/hcion-extract#teste"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#user3">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#User"/>
+        <main:participation_of rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#notSound"/>
+        <main:participation_of rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#teste"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#userparticipation1 -->
+    <!-- https://raw.githubusercontent.com/sd-costa/teste/main/#userparticipation1 -->
 
-    <owl:NamedIndividual rdf:about="http://nemo.ufes.br/hcion-extract#userparticipation1">
-        <rdf:type rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <geolocation_x rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-117.138</geolocation_x>
-        <geolocation_y rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-289.927</geolocation_y>
-        <geolocation_z rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.67</geolocation_z>
-        <sound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</sound>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#userparticipation1">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
+        <main:geolocation_x rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-117.138</main:geolocation_x>
+        <main:geolocation_y rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-289.927</main:geolocation_y>
+        <main:geolocation_z rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.67</main:geolocation_z>
+        <main:sound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</main:sound>
     </owl:NamedIndividual>
     
 
@@ -304,9 +305,9 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
-            <rdf:Description rdf:about="http://nemo.ufes.br/hcion-extract#User"/>
-            <rdf:Description rdf:about="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#HumanComputerInteraction"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#User"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sd-costa/teste/main/#UserParticipation"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
@@ -314,4 +315,3 @@
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
