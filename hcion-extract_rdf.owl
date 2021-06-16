@@ -119,7 +119,7 @@
     <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#OWLDataProperty_7f5b4faa_7554_46e0_9b89_c18beaf5f615">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label xml:lang="en">geolocation_x</rdfs:label>
     </owl:DatatypeProperty>
     
