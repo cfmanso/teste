@@ -244,6 +244,24 @@
     
 
 
+    <!-- http://nemo.ufes.br/hcion-extract#hci3 -->
+
+    <owl:NamedIndividual rdf:about="http://nemo.ufes.br/hcion-extract#hci3">
+        <rdf:type rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
+        <dur rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT87H</dur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#hci4 -->
+
+    <owl:NamedIndividual rdf:about="http://nemo.ufes.br/hcion-extract#hci4">
+        <rdf:type rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
+        <dur rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT89876H765S5476M8988S</dur>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
