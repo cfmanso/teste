@@ -119,7 +119,7 @@
     <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#duration">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
