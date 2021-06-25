@@ -114,9 +114,9 @@
     
 
 
-    <!-- http://nemo.ufes.br/hcion-extract#duration -->
+    <!-- http://nemo.ufes.br/hcion-extract#dur -->
 
-    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#duration">
+    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#dur">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
@@ -230,7 +230,7 @@
 
     <owl:NamedIndividual rdf:about="http://nemo.ufes.br/hcion-extract#hci1">
         <rdf:type rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
-        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">99999</duration>
+        <dur rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">4324324</dur>
     </owl:NamedIndividual>
     
 
@@ -239,7 +239,7 @@
 
     <owl:NamedIndividual rdf:about="http://nemo.ufes.br/hcion-extract#hci2">
         <rdf:type rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
-        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">3030303</duration>
+        <dur rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">9997654</dur>
     </owl:NamedIndividual>
     
 
