@@ -265,7 +265,7 @@
     <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#up_geolocation_x">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -275,7 +275,7 @@
     <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#up_geolocation_y">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -285,7 +285,7 @@
     <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#up_geolocation_z">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
