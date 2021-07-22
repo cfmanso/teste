@@ -310,6 +310,16 @@
     
 
 
+    <!-- http://nemo.ufes.br/hcion-extract#up_type -->
+
+    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#up_type">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://nemo.ufes.br/hcion-extract#user_id -->
 
     <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#user_id">
