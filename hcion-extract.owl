@@ -7,7 +7,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://nemo.ufes.br/hcion-extract">
-        <owl:versionIRI rdf:resource="http://nemo.ufes.br/hcion-extract/6.0"/>
+        <owl:versionIRI rdf:resource="http://nemo.ufes.br/hcion-extract/7.0"/>
     </owl:Ontology>
     
 
@@ -76,6 +76,15 @@
     
 
 
+    <!-- http://nemo.ufes.br/hcion-extract#creates -->
+
+    <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#creates">
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#HCIEvaluation"/>
+        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#HCIEvaluationReport"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://nemo.ufes.br/hcion-extract#evaluates -->
 
     <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#evaluates">
@@ -126,7 +135,7 @@
     <!-- http://nemo.ufes.br/hcion-extract#is_evaluated_by -->
 
     <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#is_evaluated_by">
-        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
         <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#HCIEvaluation"/>
     </owl:ObjectProperty>
     
@@ -216,6 +225,16 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#hcie_report_expertcomment -->
+
+    <owl:DatatypeProperty rdf:about="http://nemo.ufes.br/hcion-extract#hcie_report_expertcomment">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#HCIEvaluationReport"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -344,6 +363,12 @@
     <!-- http://nemo.ufes.br/hcion-extract#HCIEvaluation -->
 
     <owl:Class rdf:about="http://nemo.ufes.br/hcion-extract#HCIEvaluation"/>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#HCIEvaluationReport -->
+
+    <owl:Class rdf:about="http://nemo.ufes.br/hcion-extract#HCIEvaluationReport"/>
     
 
 
