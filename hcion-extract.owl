@@ -90,7 +90,7 @@
     <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#evaluates">
         <owl:inverseOf rdf:resource="http://nemo.ufes.br/hcion-extract#is_evaluated_by"/>
         <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#HCIEvaluation"/>
-        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#HumanComputerInteraction"/>
     </owl:ObjectProperty>
     
 
@@ -175,6 +175,15 @@
     <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#participation_of">
         <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#User"/>
         <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#UserParticipation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nemo.ufes.br/hcion-extract#reports -->
+
+    <owl:ObjectProperty rdf:about="http://nemo.ufes.br/hcion-extract#reports">
+        <rdfs:domain rdf:resource="http://nemo.ufes.br/hcion-extract#HCIEvaluationReport"/>
+        <rdfs:range rdf:resource="http://nemo.ufes.br/hcion-extract#Measurement"/>
     </owl:ObjectProperty>
     
 
